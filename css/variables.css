@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;400&family=Roboto:wght@400;700&family=Rubik:wght@500;700&display=swap');
+
+/* FONTS */
+
+:root {
+    --font-rubik: 'Rubik', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-raleways: 'Raleways', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+
+/*    COLORS    */
+    --blue: #4C7397;
+    --active-green: #85CD29;
+    --gray: #636874;
+    --dark-gray: #383A3F;
+    --beige: #E0D6C6;
+;
+
+
+
+}

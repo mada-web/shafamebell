@@ -1,0 +1,228 @@
+body {
+    font-family: var(--font-roboto);
+    line-height: 1.2;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    background: white;
+    z-index: 10;
+}
+
+.navigation {
+    margin-left: 375px;
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_item {
+    padding-right: 50px;
+}
+
+.phone {
+    margin-right: 25px;
+    margin-left: 110px;
+}
+
+.phone_number {
+    color: var(--active-green);
+    text-decoration: none;
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.call_btn {
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+    color: var(--active-green);
+}
+
+.header_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    width: 176px;
+    border-radius: 25px;
+    border: 2px solid var(--active-green);
+    background: var(--active-green);
+    cursor: pointer;
+}
+
+.header_call_btn {
+    color: white;
+}
+
+.header_menu {
+    font-family: var(--font-raleways);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.logo {
+    margin-left: 200px;
+}
+
+.main_content__wrapper {
+    display: flex;
+    width: 100%;
+    margin-top: 115px;
+}
+
+.text_social_wrapper {
+    display: flex;
+    z-index: 2;
+    margin-top: 90px;
+}
+
+.main_text_container {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    padding-left: 332px;
+}
+
+.main_title_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title_blur {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+    width: 660px;
+    height: 310px;
+    border-radius: 70px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.4462) 0%, rgba(255, 255, 255, 0.6014) 27.6%, rgba(255, 255, 255, 0.97) 46.87%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.subtitle {
+    height: 65px;
+    width: 275px;
+    font-family: var(--font-raleways);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 29px;
+    color: var(--dark-gray);
+}
+
+.title_link {
+    margin: 0;
+    padding-top: 55px;
+}
+
+.main_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    width: 176px;
+    border-radius: 25px;
+    margin-top: 65px;
+    border: 3px solid var(--active-green);
+    background-color: white;
+    font-family: var(--font-rubik);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.main_btn:hover {
+    background: var(--active-green);
+
+}
+
+.main_btn:hover .call_btn {
+    color: white;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    position: fixed;
+    top: 210px;
+    margin-left: 170px;
+    padding-top: 35px;
+    z-index: 2;
+    border-radius: 18px;
+    background: white;
+}
+
+.main_image {
+    position: absolute;
+    top: 135px;
+    left: 700px;
+}
+
+
+.title_wrapper {
+    width: 170px;
+    color: var(--beige);
+    font-family: var(--font-rubik);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 240px;
+    border-bottom: 1px solid var(--beige);
+}
+
+.insta_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.insta_content {
+    width: 1000px;
+}
+.hide_free_widget_text {
+    position: relative;
+    top: -55px;
+    left: 400px;
+    width: 210px;
+    height: 65px;
+    background: white;
+    z-index: 100000!important;
+}
