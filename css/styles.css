@@ -83,7 +83,8 @@ body {
 .header_btn:hover {
     background: white;
 }
-.header_btn:hover .header_call_btn{
+
+.header_btn:hover .header_call_btn {
     color: var(--active-green);
 }
 
@@ -190,7 +191,7 @@ body {
     width: 3.158vw;
     position: fixed;
     top: 19.444vh;
-    margin-left: 8.947vw;
+    margin-left: 8vw;
     z-index: 2;
     border-radius: 0.947vw;
     background: white;
@@ -217,47 +218,73 @@ body {
     border-bottom: 1px solid var(--beige);
 }
 
-.insta_wrapper {
+
+/*PHOTO GALLERY*/
+.gallery_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.gallery_content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 75.368vw;
+    height: 46.204vh;
+}
+
+.gallery_unit {
+    display: flex;
+    width: 37vw;
+}
+
+.gallery_one_pic {
+    height: 46.204vh;
+}
+
+.gallery_two_pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 46.204vh;
+    margin-left: 0.789vw;
+}
+
+.lower_gallery_pic {
+    margin-top: 1.55vh;
+}
+
+.second_gallery_unit {
+    margin-left: 0.789vw;;
+}
+
+.instagram_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 167px;
+    width: 167px;
+    background-color: white;
+    border-radius: 53px;
+    z-index: 5;
+}
+
+
+/*ADVANTAGES START*/
+.advantages_wrapper {
     display: flex;
     justify-content: center;
 }
 
-.insta_content {
-    width: 52.632vw;
-}
-.hide_free_widget_text {
-    position: relative;
-    top: -5.093vh;
-    left: 21.053vw;
-    width: 11.053vw;
-    height: 6.019vh;
-    background: white;
-    z-index: 100000!important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ADVANTAGES START*/
-.advantages_wrapper{
-    display: flex;
-
+.advantages_title {
+    width: 29vw;
 }
 
 .advantages {
@@ -266,15 +293,73 @@ body {
     justify-content: space-between;
 }
 
+.advantage_wrapper {
+    display: flex;
+    width: 27.789vw;
+    height: 13.148vh;
+}
+.advantage_wrapper:not(:first-child){
+    margin-top: 5vh;
+}
+
+.single_advantage {
+    width: 23.684vw;
+    margin-left: 1.526vw;
+}
+
+.advantage_icon {
+    align-self: flex-start;
+}
+
+.advantage_title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 5vh;
+    font-family: var(--font-rubik);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--active-green);
+}
+
+.advantage_text {
+    font-family: var(--font-raleways);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--dark-gray);
+}
+
+
+.possibilities{
+    height: 72.500vh;
+    width: 37.895vw;
+    margin-right: 8.316vw;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-image: url("../images/wood.png");
+}
+.one_possibility{
+    width: 30.947vw;
+
+}
+
+.one_possibility:not(:first-child){
+    margin-top: 4.630vh;
+}
+
+.possibility_text{
+    font-family: var(--font-raleways);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--dark-gray);
+}
 /*ADVANTAGES END*/
 
 
-
-
-
-
-
-
-.footer{
+.footer {
     background-color: var(--active-green);
 }
