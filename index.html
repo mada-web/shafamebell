@@ -178,7 +178,7 @@
     <div class="delivery_wrapper">
         <div class="delivery_content">
             <img class="delivery_icon" src="./images/icons/wallet.svg" alt="wallet">
-            <p class="delivery_text">Наличный и безналичный расчет</p>
+            <p class="delivery_text">Наличный и безналичный расчет.</p>
         </div>
         <div class="delivery_content delivery_options">
             <img class="delivery_icon" src="./images/icons/car.svg" alt="wallet">
@@ -186,7 +186,7 @@
 
             <ul class="delivery_list">
                 <li class="delivery_list_item">по Минску и Минскому району;</li>
-                <li class="delivery_list_item"> по Молодечно и Молодеченскому району</li>
+                <li class="delivery_list_item"> по Молодечно и Молодеченскому району;</li>
             </ul>
 
             <p class="delivery_text">Стоимость доставки в другие пункты по договоренности.</p>
@@ -197,15 +197,29 @@
 
 
 <section class="wrapper">
-    <h2 class="title_wrapper form_title">Оставить заявку</h2>
+    <h2 class="title_wrapper form_main_title">Оставить заявку</h2>
     <div class="form_wrapper">
         <form class="form" autocomplete="off" method='post'>
+            <p class="form_title">Заполните форму и мы вам перезвоним</p>
             <div class="inputs-wrapper">
-                <p>Заполните форму и мы Вам перезвоним</p>
                 <div>
-                    <input type='text' name='username' placeholder="Ваше имя" required></div>
+                    <input class="form_input"
+                           type='text'
+                           name='username'
+                           placeholder="Ваше имя"
+                           required
+                    />
+                </div>
                 <div>
-                    <input type='text' name='usernumber' placeholder="Номер телефона в формате +375" required></div>
+                    <input class="form_input"
+                           type='tel'
+                           name='usernumber'
+                           placeholder="Номер телефона в формате +375"
+                           required
+                           pattern="^((375|\+375)[0-9]{9})|((8029|8033|8044)[0-9]{7})$"
+                           title="Format: +375123456789 or 80123456789"
+                    />
+                </div>
                 <button class="send-mail" type='submit'>Отправить заявку</button>
             </div>
         </form>
