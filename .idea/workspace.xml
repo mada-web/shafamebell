@@ -4,63 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="">
+    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="Finish advantages, add delivery and start form">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cupboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cupboard2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cupboard3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cupboard4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cupboard5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/fast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/individual.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/ok.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/ok_arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/quality.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kitchen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/Raleway-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway/static/Raleway-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/Rubik-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Rubik/static/Rubik-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/phone_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GCP/desk-booking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -121,11 +84,48 @@
       <option name="presentableId" value="Default" />
       <updated>1624285898023</updated>
       <workItem from="1624285899282" duration="6098000" />
-      <workItem from="1624369581318" duration="50567000" />
+      <workItem from="1624369581318" duration="48387000" />
+      <workItem from="1625229554064" duration="10210000" />
+      <workItem from="1626206783598" duration="13424000" />
+      <workItem from="1626809672410" duration="8609000" />
     </task>
+    <task id="LOCAL-00001" summary="Start to add advantages">
+      <created>1625265171136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625265171136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor Gallery and add an advantages">
+      <created>1626217419432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626217419432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start to add advantages" />
+    <MESSAGE value="Refactor Gallery and add a advantages" />
+    <MESSAGE value="Refactor Gallery and add an advantages" />
+    <MESSAGE value="Finish advantages, add delivery and start form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish advantages, add delivery and start form" />
   </component>
 </project>
