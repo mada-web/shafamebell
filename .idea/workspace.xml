@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="Finish advantages, add delivery and start form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <workItem from="1624369581318" duration="48387000" />
       <workItem from="1625229554064" duration="10210000" />
       <workItem from="1626206783598" duration="13424000" />
-      <workItem from="1626809672410" duration="8609000" />
+      <workItem from="1626809672410" duration="8987000" />
     </task>
     <task id="LOCAL-00001" summary="Start to add advantages">
       <created>1625265171136</created>
@@ -88,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626217419432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish advantages, add delivery and start form">
+      <created>1626818466737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626818466737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
