@@ -168,17 +168,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .social_link:not(:first-child) {
-    padding-top: 5.093vh;
+    /*padding-top: 5.093vh;*/
 
 }
 
 .social_link {
+    padding: 2vh;
+    box-sizing: border-box;
+    border: 2px solid white;
 
 }
 
 .social_link:hover {
     margin: 0;
-    padding: 2vh;
     border-radius: 20px;
     border: 2px solid var(--active-green);
 
@@ -220,7 +222,6 @@ body::-webkit-scrollbar-thumb {
     margin-left: 8vw;
     z-index: 2;
     border-radius: 0.947vw;
-    background: white;
     padding: 0.947vh 0;
     margin-top: 6vh;
 }
