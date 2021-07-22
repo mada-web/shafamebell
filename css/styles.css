@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navigation {
-    margin-left: 19.531vw;
+    margin-left: 17.5vw;;
 }
 
 .menu_list {
@@ -55,19 +55,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .list_item {
-    padding-right: 2.632vw;
+    padding-right: 2vw;
 }
 
 .phone {
     margin-right: 1.316vw;
-    margin-left: 5.789vw;
+    margin-left:3vw;
 }
 
 .phone_number {
     color: var(--active-green);
     text-decoration: none;
     font-family: var(--font-rubik);
-    font-size: 0.842vw;
+    font-size: 1vw;
     font-weight: 700;
     line-height: 1vh;
     text-align: center;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 
 .call_btn {
     font-family: var(--font-rubik);
-    font-size: 0.842vw;
+    font-size: .85vw;
     font-weight: 700;
     line-height: 1vh;
     text-decoration: none;
@@ -107,8 +107,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header_menu {
-    font-family: var(--font-raleways);
-    font-size: 0.842vw;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: 1vh;
@@ -160,8 +160,8 @@ body::-webkit-scrollbar-thumb {
 .subtitle {
     height: 6.019vh;
     width: 14.474vw;
-    font-family: var(--font-raleways);
-    font-size: 0.842vw;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
     font-weight: 300;
     line-height: 2.685vh;
     color: var(--dark-gray);
@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid var(--active-green);
     background-color: white;
     font-family: var(--font-rubik);
-    font-size: 0.842vw;
+    font-size: 1vw;
     font-weight: 700;
     line-height: 1vh;
     padding: 0;
@@ -229,6 +229,12 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 12.5vh;
     left: 36.842vw;
+    max-width: 53.526vw;
+}
+
+.main_image_title {
+    max-width: 29vw;
+    height: auto;
 }
 
 
@@ -281,6 +287,9 @@ body::-webkit-scrollbar-thumb {
 .lower_gallery_pic {
     margin-top: 1.55vh;
 }
+.gallery_image{
+    max-width: 18.211vw;
+}
 
 .second_gallery_unit {
     margin-left: 0.789vw;;
@@ -319,6 +328,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .advantage_wrapper {
@@ -347,25 +357,27 @@ body::-webkit-scrollbar-thumb {
     font-family: var(--font-rubik);
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 1.3vw;
     line-height: 31px;
     color: var(--active-green);
 }
 
 .advantage_text {
-    font-family: var(--font-raleways);
+    font-family: var(--font-raleway);
     font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: .9vw;
+    line-height: 1.1vw;
     color: var(--dark-gray);
 }
 
 
 .possibilities {
-    height: 80vh;
-    width: 37.895vw;
-    margin-left: 8.316vw;
+    max-height: 90vh;
+    min-height: 73vh;
+    max-width: 45vw;
+    margin-left: 4vw;
     background-repeat: no-repeat;
+    background-size: contain;
     background-image: url("../images/wood.jpg");
 }
 
@@ -378,14 +390,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .one_possibility:not(:first-child) {
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 
 .possibility_text {
-    font-family: var(--font-raleways);
+    font-family: var(--font-raleway);
     font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1vw;
+    line-height: 1.1vw;
     color: var(--dark-gray);
     margin-left: 25px;
 }
@@ -394,10 +406,10 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 56px;
-    min-height: 56px;
-    max-width: 56px;
-    max-height: 56px;
+    min-width: 3.646vw;
+    min-height: 6.481vh;
+    max-width: 3.646vw;
+    max-height: 6.481vh;
     background-color: white;
     border-radius: 22px;
 }
@@ -405,10 +417,10 @@ body::-webkit-scrollbar-thumb {
 .possibilities_title {
     margin: 0;
     padding-left: 55px;
-    padding-top: 6vh;
+    padding-top: 3vh;
     font-family: var(--font-rubik);
     font-weight: 500;
-    font-size: 26px;
+    font-size: 1.3vw;
     line-height: 31px;
 }
 
@@ -438,8 +450,8 @@ body::-webkit-scrollbar-thumb {
 
 .delivery_text {
     margin: 0;
-    font-family: var(--font-raleways);
-    font-size: 18px;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
     line-height: 32px;
     color: var(--gray);
 
@@ -458,8 +470,8 @@ body::-webkit-scrollbar-thumb {
 .delivery_list_item {
     padding: 1vh;
     margin: 0;
-    font-family: var(--font-raleways);
-    font-size: 18px;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
     color: var(--gray);
 }
 
@@ -520,7 +532,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .form_input::-webkit-input-placeholder {
-    font-family: var(--font-raleways);
+    font-family: var(--font-raleway);
     font-size: 14px;
     line-height: 16px;
     color: #9FA8BD;
@@ -553,11 +565,10 @@ body::-webkit-scrollbar-thumb {
 .form_title {
     margin: 0;
     color: var(--gray);
-    font-family: var(--font-raleways);
-    font-size: 18px;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
     line-height: 21px;
     text-align: center;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*FORM END*/
@@ -566,4 +577,76 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 50vh;
     background-color: var(--green-footer);
+    color: white;
 }
+
+.footer_content {
+    display: flex;
+}
+
+.footer_menu_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_navigation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 20vw;
+}
+
+.footer_list_item {
+    padding-bottom: 4vh;
+}
+
+.footer_menu_link {
+    font-family: var(--font-raleway);
+    font-size: 1vw;
+    line-height: 21px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    font-family: var(--font-raleway);
+    font-size: 1vw;
+    line-height: 21px;
+}
+
+.contacts_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.contacts_info span {
+    padding-left: 13px;
+}
+
+.contacts_title {
+    font-family: var(--font-rubik);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 4vh;
+    margin: 0;
+}
+
+.address {
+    font-family: var(--font-roboto);
+    font-size: 1vw;
+    line-height: 27px;
+    margin-bottom: 2vh;
+}
+
+
+/*MEDIA*/
