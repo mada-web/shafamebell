@@ -7,9 +7,9 @@
     <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="create footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/instagram_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/postEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/postEmail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GCP/relocation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -78,6 +78,8 @@
       <workItem from="1626206783598" duration="13424000" />
       <workItem from="1626809672410" duration="8609000" />
       <workItem from="1626859403975" duration="4116000" />
+      <workItem from="1627241362566" duration="45000" />
+      <workItem from="1628543102579" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="Start to add advantages">
       <created>1625265171136</created>

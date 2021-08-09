@@ -1,12 +1,11 @@
 <?php
-$username = $_POST['username'];
-$usernumber = $_POST['usernumber'];
 
-echo $username;
-echo "<br>";
-echo $usernumber;
-if (mail("rubashko.artem@mail.ru", "Заявка с сайта", "Имя:".$username.". Номер телефона: ".$usernumber ,"From: shafamebell.by \r\n"))
- {     echo "Сообщение успешно отправлено";
-} else {
-    echo "При отправке сообщения возникли ошибки";
-}?>
+$recepient = "rubashko.artem@mail.ru";
+$sitename = "ShafaMebell";
+
+$name = trim($_POST["name"]);
+$phone = trim($_POST["phone"]);
+$message = "Имя: $name \nТелефон: $phone";
+
+$pagetitle = "Новая заявка с сайта \"$sitename\"";
+mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");

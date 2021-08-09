@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navigation {
-    margin-left: 17.5vw;;
+    margin-left: 19.5vw;;
 }
 
 .menu_list {
@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .list_item {
-    padding-right: 2vw;
+    padding-right: 1.5vw;
 }
 
 .phone {
@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 .header_menu {
     font-family: var(--font-raleway);
-    font-size: 1vw;
+    font-size: .83vw;
     font-style: normal;
     font-weight: 400;
     line-height: 1vh;
@@ -118,6 +118,10 @@ body::-webkit-scrollbar-thumb {
 
 .logo {
     margin-left: 10.526vw;
+}
+.logo_img{
+    max-width: 6.5vw;
+    height: auto;
 }
 
 .main_content__wrapper {
@@ -304,11 +308,16 @@ body::-webkit-scrollbar-thumb {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 167px;
-    width: 167px;
+    height: 17vh;
+    width: 8vw;
     background-color: white;
-    border-radius: 53px;
+    border-radius: 2.5vw;
     z-index: 5;
+}
+
+.instagram_image img{
+    width: 4.737vw;
+    height: 8.333vh;
 }
 
 
@@ -505,7 +514,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    width: 30vw;
+    width: 32vw;
     background: rgba(255, 255, 255, 0.45);
     border: 1px solid #B9EE76;
     border-radius: 95px;
@@ -517,7 +526,6 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-
 }
 
 .form_input {
@@ -525,10 +533,10 @@ body::-webkit-scrollbar-thumb {
     width: 17vw;
     background: #FFFFFF;
     border: 1px solid #B9EE76;
-    border-radius: 16px;
+    border-radius: 12px;
     outline: none;
     margin-bottom: 1.5vh;
-    padding-left: 20px;
+    padding-left: 1vw;
 
 }
 
@@ -545,16 +553,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .send-mail {
-    height: 5vh;
-    width: 18vw;
+    height: 6vh;
+    width: 18.5vw;
     background: var(--active-green);
-    border-radius: 16px;
+    border-radius: .7vw;
     margin-top: 5vh;
     padding: 0;
     font-family: var(--font-rubik);
     font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.2vw;
+    line-height: 2vh;
     color: white;
     text-align: center;
     border: none;
@@ -568,7 +576,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--gray);
     font-family: var(--font-raleway);
     font-size: 1vw;
-    line-height: 21px;
+    line-height: 2vh;
     text-align: center;
 }
 
@@ -607,7 +615,7 @@ body::-webkit-scrollbar-thumb {
 .footer_menu_link {
     font-family: var(--font-raleway);
     font-size: 1vw;
-    line-height: 21px;
+    line-height: 2vh;
     text-decoration: none;
     color: white;
 
@@ -620,7 +628,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 10vw;
     font-family: var(--font-raleway);
     font-size: 1vw;
-    line-height: 21px;
+    line-height: 2vh;
 }
 
 .contacts_info {
@@ -630,22 +638,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contacts_info span {
-    padding-left: 13px;
+    padding-left: .6vw;
 }
 
 .contacts_title {
     font-family: var(--font-rubik);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    padding-bottom: 4vh;
+    font-size: 1.3vw;
+    line-height: 2.1vh;
+    padding-bottom: 2.5vh;
     margin: 0;
 }
 
 .address {
     font-family: var(--font-roboto);
     font-size: 1vw;
-    line-height: 27px;
+    line-height: 2.5vh;
     margin-bottom: 2vh;
 }
 
