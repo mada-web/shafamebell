@@ -16,17 +16,17 @@
             <img class="logo_img" src="./images/logo.png" alt="Logo">
         </div>
         <div class="navigation">
-            <nav>
+            <nav id="menu">
                 <ul class="menu_list">
-                    <li class="list_item"><a class="header_menu" href="#">Портфолио</a></li>
-                    <li class="list_item"><a class="header_menu" href="#">Наши преимущества</a></li>
-                    <li class="list_item"><a class="header_menu" href="#">Доставка и оплата</a></li>
-                    <li class="list_item"><a class="header_menu" href="#">Контакты</a></li>
+                    <li class="list_item"><a class="header_menu" href="#gallery">Портфолио</a></li>
+                    <li class="list_item"><a class="header_menu" href="#advantages">Наши преимущества</a></li>
+                    <li class="list_item"><a class="header_menu" href="#delivery">Доставка и оплата</a></li>
+                    <li class="list_item"><a class="header_menu" href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
         </div>
         <div class="phone"><a class="phone_number" href="tel:+74951234567">+375 (29) 333-55-22</a></div>
-        <button class="header_btn"><a class="call_btn header_call_btn" href="#">Заказать звонок</a></button>
+        <button class="header_btn"><a class="call_btn header_call_btn" href="#recall">Заказать звонок</a></button>
     </header>
     <div class="main_content__wrapper">
 
@@ -50,7 +50,7 @@
                     <img class="main_image_title" src="./images/main_title.png" alt="SHAFA">
                     <p class="subtitle ">Мебель по индивидуальному заказу на любой вкус</p>
                 </div>
-                <button class="main_btn"><a class="call_btn" href="#">Заказать звонок</a></button>
+                <button class="main_btn"><a class="call_btn" href="#recall">Заказать звонок</a></button>
             </div>
         </div>
 
@@ -59,7 +59,7 @@
 </section>
 
 
-<section class="wrapper">
+<section class="wrapper" id="gallery">
     <h2 class="title_wrapper">Портфолио</h2>
     <div class="gallery_wrapper">
         <div class="gallery_content">
@@ -92,7 +92,7 @@
 </section>
 
 
-<section class="wrapper">
+<section class="wrapper" id="advantages">
 
     <h2 class="title_wrapper advantages_title">Наши преимущества и возможности</h2>
     <div class="advantages_wrapper">
@@ -172,7 +172,7 @@
     </div>
 </section>
 
-<section class="delivery_main_wrapper">
+<section class="delivery_main_wrapper" id="delivery">
 
     <h2 class="title_wrapper delivery_title">Доставка и оплата</h2>
     <div class="delivery_wrapper">
@@ -196,10 +196,10 @@
 </section>
 
 
-<section class="wrapper">
+<section class="wrapper" id="recall">
     <h2 class="title_wrapper form_main_title">Оставить заявку</h2>
     <div class="form_wrapper">
-        <form class="form" autocomplete="off">
+        <form id="form" class="form" autocomplete="off">
             <p class="form_title">Заполните форму и мы вам перезвоним</p>
             <div class="inputs-wrapper">
                 <div>
@@ -227,15 +227,15 @@
 </section>
 
 
-<section class="footer">
+<section class="footer" id="contacts">
     <div class="footer_content">
         <div class="footer_navigation">
-            <nav>
+            <nav id="footer">
                 <ul class="footer_menu_list">
-                    <li class="footer_list_item"><a class="footer_menu_link" href="#">Портфолио</a></li>
-                    <li class="footer_list_item"><a class="footer_menu_link" href="#">Наши преимущества</a></li>
-                    <li class="footer_list_item"><a class="footer_menu_link" href="#">Доставка и оплата</a></li>
-                    <li class="footer_list_item"><a class="footer_menu_link" href="#">Оставить заявку</a></li>
+                    <li class="footer_list_item"><a class="footer_menu_link" href="#gallery">Портфолио</a></li>
+                    <li class="footer_list_item"><a class="footer_menu_link" href="#advantages">Наши преимущества</a></li>
+                    <li class="footer_list_item"><a class="footer_menu_link" href="#delivery">Доставка и оплата</a></li>
+                    <li class="footer_list_item"><a class="footer_menu_link" href="#recall">Оставить заявку</a></li>
                 </ul>
             </nav>
         </div>
@@ -277,6 +277,7 @@
 
 <script src="./scripts/scripts.js"></script>
 <script src="./scripts/mail.js"></script>
+<script src="./scripts/slowScroll.js"></script>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

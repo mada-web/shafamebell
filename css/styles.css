@@ -7,6 +7,7 @@ body {
     height: 100%;
     width: 99vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -60,7 +61,7 @@ body::-webkit-scrollbar-thumb {
 
 .phone {
     margin-right: 1.316vw;
-    margin-left:3vw;
+    margin-left: 3vw;
 }
 
 .phone_number {
@@ -119,7 +120,8 @@ body::-webkit-scrollbar-thumb {
 .logo {
     margin-left: 10.526vw;
 }
-.logo_img{
+
+.logo_img {
     max-width: 6.5vw;
     height: auto;
 }
@@ -292,7 +294,8 @@ body::-webkit-scrollbar-thumb {
 .lower_gallery_pic {
     margin-top: 1.55vh;
 }
-.gallery_image{
+
+.gallery_image {
     max-width: 18.211vw;
 }
 
@@ -315,7 +318,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 5;
 }
 
-.instagram_image img{
+.instagram_image img {
     width: 4.737vw;
     height: 8.333vh;
 }
