@@ -56,6 +56,11 @@ body::-webkit-scrollbar-thumb {
 
 .list_item {
     padding-right: 2vw;
+    padding-bottom: .3vh;
+    border-bottom: 1px solid white;
+}
+.header_menu:hover{
+    border-bottom: 1px solid var(--gray);
 }
 
 .phone {
@@ -610,6 +615,9 @@ body::-webkit-scrollbar-thumb {
     line-height: 21px;
     text-decoration: none;
     color: white;
+}
+
+.footer_menu_link:hover{
 
 }
 

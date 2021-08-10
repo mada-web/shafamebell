@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="create footer">
+    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,7 @@
       <workItem from="1626206783598" duration="13424000" />
       <workItem from="1626809672410" duration="8609000" />
       <workItem from="1626859403975" duration="4116000" />
+      <workItem from="1627370399473" duration="3797000" />
     </task>
     <task id="LOCAL-00001" summary="Start to add advantages">
       <created>1625265171136</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626893659300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix icons">
+      <created>1626940355738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626940355738</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +130,7 @@
     <MESSAGE value="Refactor Gallery and add an advantages" />
     <MESSAGE value="Finish advantages, add delivery and start form" />
     <MESSAGE value="create footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="create footer" />
+    <MESSAGE value="fix icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix icons" />
   </component>
 </project>
