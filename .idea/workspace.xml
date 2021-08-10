@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/mail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/slowScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ShafaMebell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShafaMebell.iml" afterDir="false" />
+    <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/instagram_helper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/postEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
