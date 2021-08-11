@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08575ae-19e8-4f26-ac42-76c15a1cf2be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/slowScroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,9 @@
       <workItem from="1626809672410" duration="8609000" />
       <workItem from="1626859403975" duration="4116000" />
       <workItem from="1627241362566" duration="45000" />
-      <workItem from="1628543102579" duration="8200000" />
+      <workItem from="1628543102579" duration="8440000" />
+      <workItem from="1628713202374" duration="136000" />
+      <workItem from="1628713456013" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="Start to add advantages">
       <created>1625265171136</created>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628547674729</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add slowScroll">
+      <created>1628551691633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628551691633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +140,7 @@
     <MESSAGE value="Finish advantages, add delivery and start form" />
     <MESSAGE value="create footer" />
     <MESSAGE value="Refactor styles to vw, php request and add swetalert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor styles to vw, php request and add swetalert" />
+    <MESSAGE value="Add slowScroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slowScroll" />
   </component>
 </project>
