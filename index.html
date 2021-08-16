@@ -11,10 +11,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-<section class="wrapper first_container">
+<section id="toTop" class="wrapper first_container">
     <header class="header">
         <div class="logo">
-            <img class="logo_img" src="./images/logo.png" alt="Logo">
+            <a href="#toTop">
+                <img class="logo_img" src="./images/logo.png" alt="Logo">
+            </a>
         </div>
         <div class="navigation">
             <nav id="menu">
@@ -73,6 +75,12 @@
                     <img class="lower_gallery_pic gallery_image" src="./images/cupboard5.jpg" alt="cupboard">
                 </div>
             </div>
+            <div class="instagram_image">
+                <a title="Перейти на страницу в Instagram"
+                   href="https://www.instagram.com/shafamebell/">
+                    <img src="./images/instagram.svg" alt="instargam">
+                </a>
+            </div>
             <div class="gallery_unit second_gallery_unit">
                 <div class="gallery_one_pic gallery_image">
                     <img class="gallery_image" src="./images/cupboard3.jpg" alt="cupboard">
@@ -81,12 +89,6 @@
                     <img class="gallery_image" src="./images/kitchen.jpg" alt="kitchen">
                     <img class="lower_gallery_pic gallery_image" src="./images/cupboard4.jpg" alt="cupboard">
                 </div>
-            </div>
-            <div class="instagram_image">
-                <a title="Перейти на страницу в Instagram"
-                   href="https://www.instagram.com/shafamebell/">
-                    <img src="./images/instagram.svg" alt="instargam">
-                </a>
             </div>
         </div>
     </div>
@@ -219,7 +221,7 @@
                            required
                            title="Format: +375123456789 or 80123456789"
                     />
-<!--                           pattern="^((375|\+375)[0-9]{9})|((8029|8033|8044)[0-9]{7})$" -->
+                    <!--                           pattern="^((375|\+375)[0-9]{9})|((8029|8033|8044)[0-9]{7})$" -->
                 </div>
                 <button class="send-mail" type='submit'>Отправить заявку</button>
             </div>
@@ -234,7 +236,8 @@
             <nav id="footer">
                 <ul class="footer_menu_list">
                     <li class="footer_list_item"><a class="footer_menu_link" href="#gallery">Портфолио</a></li>
-                    <li class="footer_list_item"><a class="footer_menu_link" href="#advantages">Наши преимущества</a></li>
+                    <li class="footer_list_item"><a class="footer_menu_link" href="#advantages">Наши преимущества</a>
+                    </li>
                     <li class="footer_list_item"><a class="footer_menu_link" href="#delivery">Доставка и оплата</a></li>
                     <li class="footer_list_item"><a class="footer_menu_link" href="#recall">Оставить заявку</a></li>
                 </ul>
@@ -281,7 +284,6 @@
 <script src="./scripts/slowScroll.js"></script>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
 
 
 </body>
