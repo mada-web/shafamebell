@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 
 .call_btn {
     font-family: var(--font-rubik);
-    font-size: .85vw;
+    font-size: .9vw;
     font-weight: 700;
     line-height: 1vh;
     text-decoration: none;
@@ -103,9 +103,6 @@ body::-webkit-scrollbar-thumb {
 
 .header_btn:hover {
     background: white;
-}
-
-.header_btn:hover .header_call_btn {
     color: var(--active-green);
 }
 
@@ -209,7 +206,7 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid var(--active-green);
     background-color: white;
     font-family: var(--font-rubik);
-    font-size: 1vw;
+    font-size: .9vw;
     font-weight: 700;
     line-height: 1vh;
     padding: 0;
@@ -218,9 +215,6 @@ body::-webkit-scrollbar-thumb {
 
 .main_btn:hover {
     background: var(--active-green);
-}
-
-.main_btn:hover .call_btn {
     color: white;
 }
 

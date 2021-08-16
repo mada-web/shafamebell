@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/slowScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/slowScroll.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1627241362566" duration="45000" />
       <workItem from="1628543102579" duration="8200000" />
       <workItem from="1628631834773" duration="25000" />
-      <workItem from="1629097020085" duration="11087000" />
+      <workItem from="1629097020085" duration="12080000" />
     </task>
     <task id="LOCAL-00001" summary="Start to add advantages">
       <created>1625265171136</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628605429129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix instagram icon on gallery">
+      <created>1629114292293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629114292293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
     <MESSAGE value="create footer" />
     <MESSAGE value="Refactor styles to vw, php request and add swetalert" />
     <MESSAGE value="Add sweetalert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sweetalert" />
+    <MESSAGE value="Fix instagram icon on gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix instagram icon on gallery" />
   </component>
 </project>
