@@ -1,11 +1,11 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-  $("#form").submit(function () {
+  $("#form").submit(function() {
     $.ajax({
       type: "POST",
-      url: "postEmail.php",
+      url: "../mail.php",
       data: $(this).serialize()
-    }).done(function () {
+    }).done(function() {
       $(this).find("input").val("");
       swal({
         title: "Спасибо за заявку!",

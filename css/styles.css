@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navigation {
-    margin-left: 19.5vw;;
+    margin-left: 17vw;;
 }
 
 .menu_list {
@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
 
 .phone {
     margin-right: 1.316vw;
-    margin-left: 3vw;
+    margin-left: 2.1vw;
 }
 
 .phone_number {
@@ -144,7 +144,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     width: 23.947vw;
-    padding-left: 17.474vw;
+    padding-left: 15vw;
 }
 
 .main_title_wrapper {
@@ -157,7 +157,6 @@ body::-webkit-scrollbar-thumb {
 .title_blur {
     display: flex;
     flex-direction: column;
-    align-items: end;
     justify-content: flex-end;
     width: 34.737vw;
     height: 28.704vh;
@@ -236,7 +235,7 @@ body::-webkit-scrollbar-thumb {
 .main_image {
     position: absolute;
     top: 12.5vh;
-    left: 36.842vw;
+    left: 34vw;
     max-width: 53.526vw;
 }
 
@@ -384,7 +383,7 @@ body::-webkit-scrollbar-thumb {
     max-height: 90vh;
     min-height: 73vh;
     max-width: 45vw;
-    margin-left: 4vw;
+    margin-left: 10vw;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("../images/wood.jpg");
